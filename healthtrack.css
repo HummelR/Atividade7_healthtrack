@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+:root{
+    --cor0:#004BA8;
+    --cor1:#4b76bd;
+    --cor2:#bdd1f1;
+
+    --fonte-padrao: Georgia, 'Times New Roman', Times, serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:#4b76bd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
+header{
+    background-color: var(--cor2) ;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 3px;
+}
+h1 > img{
+    height: 80px;
+    width: auto;
+    padding-top: 15px;
+}
+nav{
+    padding-top: 5px;
+
+}
+nav>a{
+    padding-right: 40px;
+    padding-left: 10px;
+}
+samp{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:  20px;
+    padding: 4px;
+    border-radius: 5px;
+}
+samp>a{
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 5px;
+}
+img{
+    image-rendering: auto;
+}
+a{
+    color: white;
+}
+a:hover{
+    background-color: var(--cor2);
+    border-radius: 5px;
+}
+main{
+    margin-left: 0px;
+    margin-top: 10px;
+    background-color: #004BA8;
+    height: 300px;
+    width: 300px;
+    align-content: center;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#login{
+    position: fixed;
+    margin-left: 0px;
+    margin-top: 10px;
+    top: 20%;
+    left: 40%;
+    background-color: #004BA8;
+    height: 300px;
+    width: 300px;
+    align-content: center;
+    font-size: 20px;
+    border-radius: 10px;
+}
+main > div{
+    padding-top: 54px;
+    background-color: var(--cor0);
+    padding-left: 0px;
+}
+#senha{
+    margin-left: 22px;
+    margin-top: 31px;
+    border-radius: 5px;
+    margin-right: 0px;
+    height: 20px;
+}
+#usuario{
+    border-radius: 5px;
+    margin-top: 70px;
+    height: 20px;
+}
+label{
+    color: white;
+    margin-left: 10px;
+    text-align: right;
+}
+footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.btn{
+    padding: 10px 0px;
+    width: 200px;
+    background-color: var(--cor1);
+    border: 1px solid white;
+    user-select: none;
+    cursor: pointer;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+.btn.hover{
+    background-color: indigo;
+}
